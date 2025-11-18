@@ -1,9 +1,9 @@
 <?php
 // Configuration: REPLACE with your actual database credentials
-$host = "localhost";     // e.g., 'localhost'
-$user = "root";     // e.g., 'root'
-$pass = "";     // e.g., 'password'
-$db_name = "FOODIFY"; // e.g., 'foodify_db'
+$host = getenv("localhost");     // e.g., 'localhost'
+$user = getenv("root");     // e.g., 'root'
+$pass = getenv("");     // e.g., 'password'
+$db_name = getenv("FOODIFY"); // e.g., 'foodify_db'
 
 // Set response header to JSON
 header('Content-Type: application/json');
