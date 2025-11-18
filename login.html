@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="login.css">
+</head>
+<body>
+  <section class="login-section">
+  <div class="login-card">
+    <h2>Welcome Back 👋</h2>
+    <p class="subtitle">Login to continue ordering homemade food</p>
+    <form action="insert.php" id="loginForm" method="POST">
+      <div class="input-group">
+        <label for="username">Username</label>
+        <input type="text" id="username" name="email" placeholder="Enter your username" required>
+      </div>
+
+      <div class="input-group">
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password" required>
+      </div>
+
+      <button type="submit" class="btn primary login-btn">Login</button>
+
+      <p class="small-text">
+        Don’t have an account?
+        <a href="#" class="signup-link">Join as Home Chef</a>
+      </p>
+    </form>
+  </div>
+</section>
+
+</body>
+</html>
